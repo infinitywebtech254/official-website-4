@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  /* Ensures the browser window handles the main scrollbar */
+  overflow-x: hidden; 
+  height: auto;
+}
+
+/* Optional smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
